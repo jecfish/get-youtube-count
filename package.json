@@ -1,0 +1,16 @@
+{
+  "name": "get-youtube-count",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test-debug": "PWDEBUG=1 npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.2"
+  }
+}
