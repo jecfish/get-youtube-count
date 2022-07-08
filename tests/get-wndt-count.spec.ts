@@ -10,7 +10,7 @@ test('Get WNDT view counts', async ({ page }) => {
 
   const result: any[] = [];
 
-  for (const link of urls.slice(0,urls.length - 22)) {
+  for (const link of urls.slice(0,10)) {
     const item = await getViewsfromYoutubeVideo(link, page);
     console.log(item);
     result.push(item);
