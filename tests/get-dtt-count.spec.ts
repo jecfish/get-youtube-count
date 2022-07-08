@@ -16,5 +16,5 @@ test('Get DTT view counts', async ({ page }) => {
     result.push(item);
   }
 
-  writeFileSync(getFileName(`results/dtt`), JSON.stringify(result));
+  writeFileSync(getFileName(`docs/dtt`), JSON.stringify(result));
 });

@@ -16,5 +16,5 @@ test('Get WNDT view counts', async ({ page }) => {
     result.push(item);
   }
 
-  writeFileSync(getFileName(`results/wndt`), JSON.stringify(result));
+  writeFileSync(getFileName(`docs/wndt`), JSON.stringify(result));
 });
