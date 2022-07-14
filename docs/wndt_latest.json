@@ -1,1 +1,27 @@
-[{"title":"Chrome 103 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=LyMts4yfQu8&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=1","views":23547},{"title":"Chrome 102 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=0V_ph7PA_aw&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=2","views":42493},{"title":"Chrome 101 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=u9GRAliBrM8&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=3","views":48175},{"title":"Chrome 100 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=DAD72grzDDc&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=4","views":81420},{"title":"Chrome 99 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=zFVWeOKZBHs&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=5","views":27464},{"title":"Chrome 98 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=YqkIS88VulM&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=6","views":34434},{"title":"Chrome 97 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=cGotLGL1-Ko&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=7","views":35181},{"title":"Chrome 96 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=3CXbhnaFNEw&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=8","views":59593},{"title":"Chrome 95 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=T_Ppg7ghrWM&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=9","views":32235},{"title":"Chrome 94 - What’s New in DevTools","url":"https://www.youtube.com/watch?v=N9Jiou61WH4&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=10","views":33969}]
+[
+  {
+    "title": "Chrome 103 - What’s New in DevTools",
+    "url": "https://www.youtube.com/watch?v=LyMts4yfQu8&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=1",
+    "views": 23547
+  },
+  {
+    "title": "Chrome 102 - What’s New in DevTools",
+    "url": "https://www.youtube.com/watch?v=0V_ph7PA_aw&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=2",
+    "views": 42493
+  },
+  {
+    "title": "Chrome 101 - What’s New in DevTools",
+    "url": "https://www.youtube.com/watch?v=u9GRAliBrM8&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=3",
+    "views": 48175
+  },
+  {
+    "title": "Chrome 100 - What’s New in DevTools",
+    "url": "https://www.youtube.com/watch?v=DAD72grzDDc&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=4",
+    "views": 81420
+  },
+  {
+    "title": "Chrome 99 - What’s New in DevTools",
+    "url": "https://www.youtube.com/watch?v=zFVWeOKZBHs&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=5",
+    "views": 27464
+  }
+]
