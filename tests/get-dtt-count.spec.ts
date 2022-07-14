@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { writeFileSync } from 'fs';
-import { getFileName, getUrlsfromYoutubePlaylist, getViewsfromYoutubeVideo } from '../helpers/utils';
+import { getToday, getUrlsfromYoutubePlaylist, getViewsfromYoutubeVideo } from '../helpers/utils';
 
 test('Get DTT view counts', async ({ page }) => {
   const playlist = 'https://www.youtube.com/playlist?list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X';
@@ -16,5 +16,11 @@ test('Get DTT view counts', async ({ page }) => {
     result.push(item);
   }
 
-  writeFileSync(getFileName(`docs/dtt`), JSON.stringify(result));
+  const prefix = 'docs/dtt_';
+  const today = getToday(); 
+  const lastUpdated = today;
+
+  writeFileSync(`${prefix}${today}.json`, JSON.stringify(result));
+  writeFileSync(`${prefix}latest.json`, JSON.stringify(result));
+  writeFileSync(`${prefix}last_updated.json`, JSON.stringify([{ lastUpdated }]));
 });

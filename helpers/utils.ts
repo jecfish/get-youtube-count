@@ -33,11 +33,11 @@ export async function getViewsfromYoutubeVideo(videoURL, page: Page) {
   return { title, url: videoURL, views}; 
 }
 
-export function getFileName (prefix) {
+export function getToday () {
   const dateObj = new Date();
   const year = dateObj.getUTCFullYear();
-  const month = (dateObj.getMonth() + 1).toString().padStart(2,0);
-  const date = dateObj.getUTCDate().toString().padStart(2,0);
+  const month = (dateObj.getMonth() + 1).toString().padStart(2,'0');
+  const date = dateObj.getUTCDate().toString().padStart(2,'0');
 
-  return `${prefix}_${year}${month}${date}.json`;
+  return `${year}${month}${date}`;
 }
