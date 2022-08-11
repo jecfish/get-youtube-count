@@ -1,47 +1,57 @@
 [
   {
+    "title": "How to log messages in the Console | DevTools Tips",
+    "url": "https://www.youtube.com/watch?v=76U0gtuV9AY&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=1",
+    "views": 11819
+  },
+  {
+    "title": "How to emulate CSS user preference media features | DevTools Tips",
+    "url": "https://www.youtube.com/watch?v=gOkM1L6azEI&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=2",
+    "views": 5321
+  },
+  {
     "title": "How to inspect CSS container queries | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=X4TYXlvbb2E&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=1",
-    "views": 8607
+    "url": "https://www.youtube.com/watch?v=X4TYXlvbb2E&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=3",
+    "views": 9720
   },
   {
     "title": "Performance insights panel | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=5PFmGeCZDvw&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=2",
-    "views": 8474
+    "url": "https://www.youtube.com/watch?v=5PFmGeCZDvw&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=4",
+    "views": 10805
   },
   {
     "title": "CSS Grid debugging tools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=M8SlBgul8ao&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=3",
-    "views": 14016
+    "url": "https://www.youtube.com/watch?v=M8SlBgul8ao&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=5",
+    "views": 15109
   },
   {
     "title": "CSS Flexbox debugging tools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=J5n2aS37rpE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=4",
-    "views": 15724
+    "url": "https://www.youtube.com/watch?v=J5n2aS37rpE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=6",
+    "views": 16201
   },
   {
     "title": "Discover and fix low contrast text with DevTools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=t4pDjqhG6fE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=5",
-    "views": 7676
+    "url": "https://www.youtube.com/watch?v=t4pDjqhG6fE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=7",
+    "views": 7833
   },
   {
     "title": "Record and replay user flow with the Recorder panel | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=rMUayh1QPYs&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=6",
-    "views": 68505
+    "url": "https://www.youtube.com/watch?v=rMUayh1QPYs&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=8",
+    "views": 72435
   },
   {
     "title": "Authoring colors with DevTools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=TuR27BxCRVk&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=7",
-    "views": 7358
+    "url": "https://www.youtube.com/watch?v=TuR27BxCRVk&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=9",
+    "views": 7575
   },
   {
     "title": "Faster DevTools navigation with shortcuts and settings | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=xHusjrb_34A&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=8",
-    "views": 14023
+    "url": "https://www.youtube.com/watch?v=xHusjrb_34A&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=10",
+    "views": 17234
   },
   {
     "title": "Identify potential CSS improvements with the CSS Overview panel | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=OAP_Sr0zb5I&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=9",
-    "views": 23678
+    "url": "https://www.youtube.com/watch?v=OAP_Sr0zb5I&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=11",
+    "views": 24066
   }
 ]
