@@ -1,57 +1,67 @@
 [
   {
+    "title": "How to speed up your workflow with Console shortcuts | DevTools Tips",
+    "url": "https://www.youtube.com/watch?v=hdRDTj6ObiE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=1",
+    "views": 7680
+  },
+  {
+    "title": "How to inspect animations | DevTools Tips",
+    "url": "https://www.youtube.com/watch?v=lVLzkleL_CE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=2",
+    "views": 10808
+  },
+  {
     "title": "How to log messages in the Console | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=76U0gtuV9AY&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=1",
-    "views": 11819
+    "url": "https://www.youtube.com/watch?v=76U0gtuV9AY&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=3",
+    "views": 16215
   },
   {
     "title": "How to emulate CSS user preference media features | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=gOkM1L6azEI&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=2",
-    "views": 5321
+    "url": "https://www.youtube.com/watch?v=gOkM1L6azEI&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=4",
+    "views": 5588
   },
   {
     "title": "How to inspect CSS container queries | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=X4TYXlvbb2E&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=3",
-    "views": 9720
+    "url": "https://www.youtube.com/watch?v=X4TYXlvbb2E&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=5",
+    "views": 10241
   },
   {
     "title": "Performance insights panel | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=5PFmGeCZDvw&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=4",
-    "views": 10805
+    "url": "https://www.youtube.com/watch?v=5PFmGeCZDvw&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=6",
+    "views": 12227
   },
   {
     "title": "CSS Grid debugging tools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=M8SlBgul8ao&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=5",
-    "views": 15109
+    "url": "https://www.youtube.com/watch?v=M8SlBgul8ao&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=7",
+    "views": 16035
   },
   {
     "title": "CSS Flexbox debugging tools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=J5n2aS37rpE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=6",
-    "views": 16201
+    "url": "https://www.youtube.com/watch?v=J5n2aS37rpE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=8",
+    "views": 16528
   },
   {
     "title": "Discover and fix low contrast text with DevTools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=t4pDjqhG6fE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=7",
-    "views": 7833
+    "url": "https://www.youtube.com/watch?v=t4pDjqhG6fE&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=9",
+    "views": 7933
   },
   {
     "title": "Record and replay user flow with the Recorder panel | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=rMUayh1QPYs&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=8",
-    "views": 72435
+    "url": "https://www.youtube.com/watch?v=rMUayh1QPYs&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=10",
+    "views": 75545
   },
   {
     "title": "Authoring colors with DevTools | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=TuR27BxCRVk&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=9",
-    "views": 7575
+    "url": "https://www.youtube.com/watch?v=TuR27BxCRVk&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=11",
+    "views": 7730
   },
   {
     "title": "Faster DevTools navigation with shortcuts and settings | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=xHusjrb_34A&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=10",
-    "views": 17234
+    "url": "https://www.youtube.com/watch?v=xHusjrb_34A&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=12",
+    "views": 20527
   },
   {
     "title": "Identify potential CSS improvements with the CSS Overview panel | DevTools Tips",
-    "url": "https://www.youtube.com/watch?v=OAP_Sr0zb5I&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=11",
-    "views": 24066
+    "url": "https://www.youtube.com/watch?v=OAP_Sr0zb5I&list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X&index=13",
+    "views": 24331
   }
 ]
