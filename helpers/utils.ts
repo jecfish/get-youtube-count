@@ -2,6 +2,11 @@ import { Page } from "@playwright/test";
 
 export async function getUrlsfromYoutubePlaylist(playlistURL, page: Page) {
   await page.goto(playlistURL);
+
+  const acceptTermButtonCount = await page.locator('button:visible[aria-label="Accept all"]').count();
+
+  if (acceptTermButtonCount)
+    await page.locator('button[aria-label="Accept all"]').nth(acceptTermButtonCount-1).click();
   
   const list = page.locator(
     'ytd-playlist-video-renderer ytd-thumbnail a#thumbnail'
