@@ -2,56 +2,67 @@ export const list = [
   {
     id: 106,
     title: "Chrome 106",
+    yearQuarter: "2022Q4",
     video: "5gBqTXctxO8",
   },
   {
     id: 105,
     title: "Chrome 105",
+    yearQuarter: "2022Q3",
     video: "bHw_56RiVsg",
   },
   {
     id: 104,
     title: "Chrome 104",
+    yearQuarter: "2022Q3",
     video: "4RXWfw7Xg_Y",
   },
   {
     id: 103,
     title: "Chrome 103",
+    yearQuarter: "2022Q2",
     video: "LyMts4yfQu8",
   },
   {
     id: 102,
     title: "Chrome 102",
+    yearQuarter: "2022Q2",
     video: "0V_ph7PA_aw",
   },
   {
     id: 101,
     title: "Chrome 101",
+    yearQuarter: "2022Q2",
     video: "u9GRAliBrM8",
   },
   {
     id: 100,
     title: "Chrome 100",
+    yearQuarter: "2022Q1",
     video: "DAD72grzDDc",
   },
   {
     id: 99,
     title: "Chrome 99",
+    yearQuarter: "2022Q1",
     video: "zFVWeOKZBHs",
   },
   {
     id: 98,
     title: "Chrome 98",
+    yearQuarter: "2022Q1",
     video: "YqkIS88VulM",
   },
   {
     id: 97,
     title: "Chrome 97",
+    yearQuarter: "2021Q4",
     video: "cGotLGL1-Ko",
   },
   {
     id: 96,
     title: "Chrome 96",
+    yearQuarter: "2021Q4",
     video: "3CXbhnaFNEw",
   },
   {
