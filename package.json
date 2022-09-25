@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test-debug": "PWDEBUG=1 npm run test"
+    "test-debug": "PWDEBUG=1 npm run test",
+    "dtt": "playwright test tests/get-dtt-count.specs.ts",
+    "dtt-debug": "PWDEBUG=1 npm run dtt",
+    "wndt": "PWDEBUG=1 npm run test tests/get-wndt-count.spec.ts",
+    "wndt-debug": "PWDEBUG=1 npm run wndt"
   },
   "keywords": [],
   "author": "",
