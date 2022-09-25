@@ -1,19 +1,19 @@
 import { test, expect } from '@playwright/test';
 import { writeFileSync } from 'fs';
-import { getToday, getUrlsfromYoutubePlaylist, getViewsfromYoutubeVideo } from '../helpers/utils';
+import { acceptTermsCondition, getToday, getUrlsfromYoutubePlaylist, getViewsfromYoutubeVideo, processYoutubeUrls } from '../helpers/utils';
+import { list } from '../helpers/wndt';
 
 test('Get WNDT view counts', async ({ page }) => {
   const playlist = 'https://www.youtube.com/playlist?list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD';
+  await acceptTermsCondition(playlist, page);
 
-  const urls = await getUrlsfromYoutubePlaylist(playlist, page);
-  console.log(urls);
+  const urlItems = await processYoutubeUrls(list);
 
   const result: any[] = [];
 
-  for (const link of urls.slice(0,10)) {
-    const item = await getViewsfromYoutubeVideo(link, page);
-    console.log(item);
-    result.push(item);
+  for (const item of urlItems.filter(x => x.id >= 98)) {
+    const { views } = await getViewsfromYoutubeVideo(item.url, page);
+    result.push({...item, views});
   }
 
   const prefix = 'docs/wndt_';

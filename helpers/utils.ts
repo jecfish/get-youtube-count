@@ -19,6 +19,24 @@ export async function getUrlsfromYoutubePlaylist(playlistURL, page: Page) {
   return urls;
 }
 
+export async function acceptTermsCondition(playlistURL, page: Page) {
+  await page.goto(playlistURL);
+
+  const acceptTermButtonCount = await page.locator('button:visible[aria-label="Accept all"]').count();
+
+  if (acceptTermButtonCount)
+    await page.locator('button[aria-label="Accept all"]').nth(acceptTermButtonCount-1).click();
+}
+
+
+export type UrlItem = { id: number, video: string, title: string };
+export async function processYoutubeUrls(list: UrlItem[]) {
+  return list.map(item => ({
+    ...item,
+    url: 'https://www.youtube.com/watch?v=' + item.video,
+  }));
+}
+
 export async function getViewsfromYoutubeVideo(videoURL, page: Page) {
   await page.goto(videoURL);
 

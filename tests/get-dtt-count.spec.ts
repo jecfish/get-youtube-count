@@ -1,19 +1,19 @@
 import { test, expect } from '@playwright/test';
 import { writeFileSync } from 'fs';
-import { getToday, getUrlsfromYoutubePlaylist, getViewsfromYoutubeVideo } from '../helpers/utils';
+import { getToday, processYoutubeUrls, getViewsfromYoutubeVideo, acceptTermsCondition } from '../helpers/utils';
+import { list } from '../helpers/dtt';
 
 test('Get DTT view counts', async ({ page }) => {
   const playlist = 'https://www.youtube.com/playlist?list=PLNYkxOF6rcIAcezfL8q0rjt13ufKseL5X';
+  await acceptTermsCondition(playlist, page);
 
-  const urls = await getUrlsfromYoutubePlaylist(playlist, page);
-  console.log(urls);
+  const urlItems = await processYoutubeUrls(list);
 
   const result: any[] = [];
 
-  for (const link of urls) {
-    const item = await getViewsfromYoutubeVideo(link, page);
-    console.log(item);
-    result.push(item);
+  for (const item of urlItems) {
+    const { views } = await getViewsfromYoutubeVideo(item.url, page);
+    result.push({...item, views});
   }
 
   const prefix = 'docs/dtt_';
