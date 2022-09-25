@@ -28,7 +28,6 @@ export async function acceptTermsCondition(playlistURL, page: Page) {
     await page.locator('button[aria-label="Accept all"]').nth(acceptTermButtonCount-1).click();
 }
 
-
 export type UrlItem = { id: number, video: string, title: string };
 export async function processYoutubeUrls(list: UrlItem[]) {
   return list.map(item => ({
