@@ -1,5 +1,11 @@
 export const list = [
   {
+    id: 14,
+    title: 'How to edit and extend user flows with Recorder and Puppeteer Replay',
+    yearQuarter: "2022Q4",
+    video: 'LBgzmqzp7ew'
+  },
+  {
     id: 13,
     title: "How to speed up your workflow with Console shortcuts",
     yearQuarter: "2022Q3",
