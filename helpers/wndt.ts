@@ -1,5 +1,11 @@
 export const list = [
   {
+    id: 107,
+    title: "Chrome 107",
+    yearQuarter: "2022Q4",
+    video: "1uwv6HbR8HU",
+  },
+  {
     id: 106,
     title: "Chrome 106",
     yearQuarter: "2022Q4",
