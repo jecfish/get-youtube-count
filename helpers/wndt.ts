@@ -1,5 +1,29 @@
 export const list = [
   {
+    id: 111,
+    title: "Chrome 111",
+    yearQuarter: "2023Q1",
+    video: "",
+  },
+  {
+    id: 110,
+    title: "Chrome 110",
+    yearQuarter: "2023Q1",
+    video: "",
+  },
+  {
+    id: 109,
+    title: "Chrome 109",
+    yearQuarter: "2023Q1",
+    video: "PupwBARjaYU",
+  },
+  {
+    id: 108,
+    title: "Chrome 108",
+    yearQuarter: "2022Q4",
+    video: "UVtXrWvq_oI",
+  },
+  {
     id: 107,
     title: "Chrome 107",
     yearQuarter: "2022Q4",

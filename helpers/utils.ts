@@ -32,11 +32,15 @@ export type UrlItem = { id: number, video: string, title: string };
 export async function processYoutubeUrls(list: UrlItem[]) {
   return list.map(item => ({
     ...item,
-    url: 'https://www.youtube.com/watch?v=' + item.video,
+    url: 'https://www.youtube.com/watch?v=' + (item.video || 'null'),
   }));
 }
 
-export async function getViewsfromYoutubeVideo(videoURL, page: Page) {
+export async function getViewsfromYoutubeVideo(videoURL: string, page: Page) {
+  if (videoURL.endsWith('null')) {
+    return { url: videoURL, views: 0 };
+  }
+
   await page.goto(videoURL);
 
   const title = await page

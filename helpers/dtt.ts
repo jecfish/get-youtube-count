@@ -1,5 +1,35 @@
 export const list = [
   {
+    id: 20,
+    title: 'Discover CSS issues with DevTools',
+    yearQuarter: "2023Q1",
+    video: 'iuZx0kHS0Xs'
+  },
+  {
+    id: 18,
+    title: 'Debugging PWA with DevTools',
+    yearQuarter: "2023Q1",
+    video: 'fGU39PukAlA'
+  },
+  {
+    id: 17,
+    title: 'Debugging Project Fugu APIs',
+    yearQuarter: "2022Q4",
+    video: '7ma_ZyfrgYM'
+  },
+  {
+    id: 19,
+    title: 'Simulate mobile devices with Device mode',
+    yearQuarter: "2022Q4",
+    video: 'f7kokNyRe7U'
+  },
+  {
+    id: 15,
+    title: 'Different ways to open Chrome DevTools',
+    yearQuarter: "2022Q4",
+    video: 'X65TAP8a530'
+  },
+  {
     id: 14,
     title: 'How to edit and extend user flows with Recorder and Puppeteer Replay',
     yearQuarter: "2022Q4",

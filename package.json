@@ -6,15 +6,17 @@
   "scripts": {
     "test": "playwright test",
     "test-debug": "PWDEBUG=1 npm run test",
-    "dtt": "playwright test tests/get-dtt-count.specs.ts",
+    "dtt": "PWDEBUG=1 npm run test tests/get-dtt-count.spec.ts",
     "dtt-debug": "PWDEBUG=1 npm run dtt",
     "wndt": "PWDEBUG=1 npm run test tests/get-wndt-count.spec.ts",
-    "wndt-debug": "PWDEBUG=1 npm run wndt"
+    "wndt-debug": "PWDEBUG=1 npm run wndt",
+    "ttt": "ndb npm run wndt"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.23.2"
+    "@playwright/test": "^1.27.1",
+    "ndb": "^1.1.5"
   }
 }
